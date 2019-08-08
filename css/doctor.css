@@ -1,0 +1,545 @@
+ body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+/*Start Docotor sidebar*/
+.doctor-profile .row
+{
+    margin: 0;
+}
+.doctor-profile .doctor
+{
+    background:#15a1b5;
+    padding: 20px;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    width: 25%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.log-out
+{
+    background: #068f96;
+    color: #fff;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+  position: relative;
+    left: 310px;
+    top: -147px;
+    text-decoration: none
+}
+.log-out:hover,
+#log-out:hover
+{
+    color: #fff;
+    background: #15a1b5;
+    text-decoration: none;
+}
+.log2{
+        top: 95px;
+    left: 900px;
+}
+#log-out
+{
+        background: #068f96;
+    color: #fff;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    left: 310px;
+    top: 100px;
+    text-decoration: none;
+}
+/*===============*/
+.image-upload
+{
+    margin-left: 130px;
+    margin-top: 18px;
+    display: inline-block;
+     color: #ea1548;
+    font-size: 18px;
+}
+.patient-added
+{
+    margin-left: 300px;
+    font-size: 20px;
+    display: inline-block;
+    color: #21080e;
+    position: relative;
+    top: -20px;
+}
+.doctor-profile .col-md-9,
+.doctor-profile .col-md-12
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*================*/
+}
+.doctor-profile .col-md-3,
+.doctor-profile  .col-md-9{
+    padding: 0;
+}
+.doctor-profile .doctor .image
+{
+    float: left;
+}
+.doctor-profile .doctor .About-me
+{
+    padding-top: 10px;
+}
+.doctor-profile .doctor .About-me h3
+{
+    color:#fbf1f1;
+    margin-bottom: 20px;
+}
+.doctor-profile .doctor .About-me p
+{
+    line-height: 1.7;
+    color:#dcd9d9;
+    font-size: 16px;
+}
+.doctor-profile .doctor .info
+{
+    float: left;
+    margin-left: 5%;
+    color: #fff;
+}
+.doctor-profile .doctor .info h5
+{
+    margin: 0;
+    margin-top: 25%;
+    font-weight: 600;
+    color: #f3e3e3;
+    margin-bottom: 7%;
+}
+/*Ens Docotor sidebar*/
+/*Start Profile Section*/
+.doctor-profile .profile,
+.patient-profile
+{
+    height: 400px;
+    padding: 20px;
+    background: url(../images/profile-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.doctor-profile .profile .image
+{
+    width: 125px;
+    height: 150px;
+    margin: auto;
+    line-height: 150px;
+}
+.doctor-profile .profile form
+{
+    width: 50%;
+    margin: auto;
+    color: #ddd;
+}
+
+.doctor-profile .profile form input[type="file"]
+{
+     margin-left: 125px;
+    margin-top: 20px;
+}
+.doctor-profile .profile form input[type="submit"]
+{
+    display: block;
+    width: 221px;
+    margin-left: 125px;
+    margin-top: 20px;
+    border: none;
+    color: #000;
+    height: 40px;
+    border-radius: 5px;
+    background: #3dc4da;
+}
+.doctor-profile .profile form input[type="submit"]:hover
+{
+    background:#14b5d0;
+    color: #fff;
+}
+.doctor-profile .profile .contact
+{
+    width: 300px;
+    height: 85px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+.doctor-profile .profile .contact button
+{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background: #fff;
+    margin: 2px;
+    cursor: pointer;
+    outline: 0;
+    border-radius: 5px;
+}
+.doctor-profile .profile .contact button:hover
+{
+    background: #15a1b5;
+    color: #fff;
+}
+@media(max-width:767px){
+    .doctor-profile .profile{
+        padding: 0;
+    }
+    .doctor-profile .profile .contact{
+        width: 272px;
+    }
+}
+.doctor-info
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #000;
+}
+.doctor-info .details .information
+{
+    margin: auto;
+    width: 60%;
+}
+.doctor-info .details .information form input[type="text"]
+{
+    background:#f3f3f3;
+    padding-left: 20px;
+    height: 40px;
+    border-radius: 5px;
+    color: #777;
+    text-decoration: none;
+    outline: 0;
+    margin-left: -82px;
+    margin-top: 35px;
+}
+.doctor-info .details .information form input[type="submit"]
+{
+    background:#f3f3f3;
+    height: 40px;
+    width: 160px;
+    color: #666;
+    text-decoration: none;
+    border-radius: 5px;
+    outline: 0;
+    position: relative;
+    left: 150px;
+    top: -36px;
+}
+.doctor-info .details .information form input[type="submit"].add-update
+{
+    position: relative;
+    top: -32px;
+    left: 30px;
+    margin-top: 10px;
+}
+.doctor-info .details .information form input[type="submit"]:hover
+{
+    background:#40a9dc;
+    color: #fff;
+    outline: 0;
+}
+.doctor-info .details .information form p
+{
+    width: 44%;
+    position: relative;
+    left: -61px;
+    top: 8px;
+    background: #f3f3f3;
+    height: 40px;
+    line-height: 33px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.doctor-info .details .information form .delete
+{
+    margin-left: 191px;
+    margin-top: -27px;
+}
+.doctor-info .details .information label
+{
+    position: relative;
+    left: -60px;
+}
+.doctor-info .details .information p
+{
+    position: relative;
+    top: 0px;
+    left: 26px;
+}
+.doctor-info .details .information .o
+{
+    position: relative;
+    top: -12px;
+}
+.doctor-info .details .information input
+{
+    position: relative;
+    top: -30px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: #26ccd4;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.doctor-info .details .information input.update
+{
+   text-decoration: none;
+    width: 115px;
+    margin-top: 10px;
+    background: #2fc1c1;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    float: right;
+}
+/*End Profile Section*/
+/*Start Patient Info*/
+.patient
+{
+    border-bottom: 1px solid #000;
+    padding:50px 20px 50px 20px;
+    background: #099bb3;
+}
+.patient h4
+{
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    background: #ddd;
+    color: #000;
+    box-shadow: 3px 3px 3px #000;
+    position: relative;
+    top: -83px;
+    left: 20px;
+}
+.patient .p-head
+{
+    width:300px;
+}
+.patient input
+{
+    margin: auto;
+    margin-left: 273px;
+    margin-bottom: 40px;
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    outline: 0;
+    padding-left: 10px;
+}
+.patient input[type="submit"].one,
+.patient select
+{
+    margin-bottom: 40px;
+    margin-left: 15px;
+    height: 35px;
+    padding: 0;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    outline: 0;
+}
+.patient select
+{
+    margin-left: 320px;
+    width: 260px;
+}
+table
+{
+    border: 1px solid  #099bb3;
+    width: 750px;
+    margin: auto;
+    height: 300px;
+    text-align: center; 
+    background: #fff;
+}
+tr,td
+{
+    border: 1px solid  #099bb3;
+}
+.t-image{
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+}
+.t-image img
+{
+    width: 75px;
+    height: 75px;
+}
+td input[type="submit"]
+{
+    text-align: center;
+    margin: auto;
+    width: 140px;
+    background: none;
+    text-decoration: underline;
+    font-size: 20px;
+    color: #6161cc;
+}
+/*end Patient Info*/
+/*Start  Medical Record */
+.doctor-info .col-md-12,
+.doctor-profile .col-md-12
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.patient-profile .profile .image
+{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    text-align: center;
+}
+.patient-profile .profile .image h3
+{
+    color:#f7f5f5
+}
+.status
+{
+    background: #15a1b5
+}
+.new-status
+{
+    padding:50px 40px ;
+    border: 1px solid #ccc;
+    margin-top: 60px;
+    background: #fff;
+    box-shadow: 3px 3px 3px #000,
+                -3px -3px 3px #000;
+}
+.first
+{
+    height: 603px;
+}
+.new-status h4
+{
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    background: #ddd;
+    color: #000;
+    box-shadow: 3px 3px 3px #000;
+    position: relative;
+    top: -83px;
+    left: 20px;
+}
+.new-status textarea
+{
+    margin-left: 80px;
+    margin-top: 18px;
+    width: 320px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+    outline: 0;
+    height: 200px;
+}
+.new-status input
+{
+    margin-left: 10px;
+    width: 316px;
+    height: 32px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+.new-status input[type="submit"]
+{
+    margin-left: 130px;
+    margin-top: 20px;
+    padding: 7px;
+    height: 39px;
+    background: #25c1c1;
+    border: none;
+    font-size: 18px;
+    color: #eee;
+}
+.del
+{
+    position: relative;
+    top: -180px;
+}
+.new-status button
+{
+    width: 31%;
+    margin-left: 130px;
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    background: #15c6d8;
+    font-size: 18px;
+    border-radius: 9px;
+    color: #333;
+    outline: 0;
+}
+.new-status button:hover
+{
+    background:#15a1b5;
+    color: #fff;
+}
+.new-status p
+{
+    color: #908f8f;
+}
+/*end Medical Record */
+/*Start posts  */
+.posts
+{
+    background:#15a1b5;
+    padding: 10px 10px 60px 10px;
+}
+.posts .firstPost
+{
+    background: #fff;
+    margin-top: 50px;
+    padding: 20px;
+    height: 300px;
+    box-shadow: 3px 3px 3px #000,
+                -3px -3px 3px #000;
+}
+.posts .firstPost input
+{
+     width: 115px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    color: #eee;
+    background: #1fc5d6;
+}
+/*end  posts  */
+/*Start  Patient Progfile  */
+.Consultants-btn
+{
+    margin-top:30px;
+}
+/*End  Patient Progfile  */
+
+
+
+
+
+
+
+
+
+

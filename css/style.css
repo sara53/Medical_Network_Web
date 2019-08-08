@@ -1,0 +1,639 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*==========Start Social Links =========*/
+.social-links
+{
+    background:#0BA1B6;
+    color: #fff;
+    padding-top:5px;
+    overflow: hidden;
+}
+.social-links a
+{
+    text-decoration: none;
+}
+.social-links a i
+{
+    background: #0BA1B6;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.social-links a i:hover
+{
+    background: #fff;
+    color:#0BA1B6;
+}
+.social-links p
+{
+    float: right;
+}
+.social-links p i
+{
+    font-size: 33px;
+    vertical-align: middle;
+}
+.social-links span
+{
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 7px;
+    vertical-align: middle;
+}
+.navbar
+{
+    min-height: 70px;
+    margin-bottom: 0;
+    border: none;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 9999;
+}
+.navbar-brand a
+{
+    vertical-align: middle;
+}
+.navbar-brand span
+{
+    display:inline-block;
+    margin-top: 12px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.navbar-brand img
+{
+    float: left;
+    margin-right: 10px;
+}
+.container > .navbar-header, 
+.container-fluid > .navbar-header,
+.container > .navbar-collapse, 
+.container-fluid > .navbar-collapse
+{
+    margin-top: 4px;
+}
+.navbar-default .navbar-nav > li > a
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+    color:#0BA1B6;
+/*
+    background: #2799b3;
+    color: #fff;
+    border-radius: 40px;
+*/
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus
+{
+    background: #fff;
+    color:#0BA1B6;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus
+{
+    background: #fff;
+}
+.navbar-default .navbar-collapse
+{
+   margin-top: 12px; 
+}
+
+.dropdown-menu > li > a
+{
+    color: #fff;
+    padding: 7px 20px;
+    width: 200px;
+    transition: all 0.4s ease-in-out;
+}
+@media (min-width: 767px) {
+    .navbar-collapse{
+      padding: 0 !important;
+    }
+}
+@media (max-width: 767px) {
+    p{
+        float: none !important;
+        margin-top: 10px;
+    }
+   
+}
+/*==========End Social Links ========*/
+/*==========Start  Slider==========*/
+#carousel-example-generic
+{
+    overflow: hidden;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img
+{
+    width: 100%;
+    height: 600px;
+}
+.carousel-caption{
+    background: rgba(2,2,2,0.5);
+    top:0;
+    width:100%;
+    left:0;
+    bottom: 0;
+    right: 0;
+}
+.carousel-caption h1,h2,h3
+{
+    font-size: 40px;
+    margin-top: 205px;
+}
+.carousel-caption p.lead
+{
+    font-size: 20px;
+}
+.hvr-rectangle-out
+{
+    background:#0BA1B6 !important;
+    width:200px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+   
+}
+.hvr-rectangle-out:hover
+{
+    background: #fff !important;
+    color:#fffBA1B6 !important;
+}
+.carousel-indicators li
+{
+    width: 15px;
+    height: 15px;
+      border: 1px solid  #0BA1B6;
+}
+.carousel-indicators .active
+{
+    width: 16px;
+    height: 16px;
+    background:#0BA1B6;   
+    border: 1px solid  #0BA1B6;
+
+}
+/*==========End Slider ==========*/
+/*==========Start Choose Us ========*/
+.choose-us{
+    padding-top:50px;
+}
+.choose-us .h1
+{
+    font-weight: 600px;
+}
+.choose-us img
+{
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.choose-us p
+{
+    font-size: 20px;
+    color:#6c6c6c;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.choose-us .icone
+{
+    background:#0BA1B6;
+    padding:5px;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
+}
+.choose-us .icone:hover
+{
+    background:#0a8394;
+}
+.choose-us .icone:hover i{
+    color:#333;
+}
+.choose-us .icone p i
+{
+    color: #0BA1B6;
+    width: 95px;
+    line-height: 95px;
+    font-size: 42px;
+    height: 95px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.choose-us .icone p{
+    color: #fff;
+}
+/*==========End Choose Us ==========*/
+/*==========Start Our Services ========*/
+.our-sevices
+{
+    background: #f6f6f6;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.our-sevices .h1
+{
+    font-weight: 600;
+    color: #6c6c6c;
+}
+.our-sevices p
+{
+    color: #6c6c6c;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.our-sevices img
+{
+    margin-bottom: 30px;
+}
+.our-sevices .services
+{
+    border: 1px solid #c5c3c3;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.our-sevices .services:hover
+{
+    background:#0BA1B6;
+    color:#fff;
+}
+.our-sevices .services:hover .icon i
+{
+    background: #fff;
+    color:#0BA1B6;
+
+}
+.our-sevices .services:hover .info h4,
+.our-sevices .services:hover .info p
+{
+color: #fff;
+}
+.our-sevices .services .icon
+{
+    float: left;
+    width: 23%;
+    height: 115px;
+    margin-right: 10px
+}
+.our-sevices .services .icon i
+{
+   font-size: 30px;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    color: #fff;
+    background: #0BA1B6;
+    margin-top: 20px;
+}
+.our-sevices .services .info
+{
+    text-align: left;
+    margin-left: 2%;
+    color:#fff;
+}
+.our-sevices .services .info h4
+{
+    color:#6f6f6f;
+    font-weight: 600;
+}
+.our-sevices .services .info p
+{
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    color: #7d7c7c;
+}
+/*==========End  Our Services==========*/
+/*==========Start  Account==========*/
+.account
+{
+    margin-top: 50px;
+    background: url(../images/slide2.jpg);
+    background-size: cover;
+    min-height: 300px;
+    background-attachment: fixed;
+}
+.account .account-overlay
+{
+    background:rgba(0,0,0,0.7);
+     padding-top: 50px;
+     min-height: 300px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.account .count-down {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.account .count-down i
+{
+    font-size: 45px;
+    border: 1px solid #fff;
+    padding: 12px;
+}
+.account .count-down span
+{
+    color: #fff;
+    font-size:40px;
+}
+.account .count-down p:not(first-of-type)
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*==========End  Account==========*/
+/*=========================== Start Patient form ======================*/
+.patient-form,
+.Doctor-form,
+.update-form,
+.Id-form,
+.hospital-form
+{
+    width: 100%;
+    background:url(../images/3.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.patient-form .form,
+.Doctor-form .form,
+.update-form .form,
+.Id-form .form,
+.hospital-form .form
+{
+    width: 450px;
+    height: 580px;
+    background: #000;
+    margin: 5% auto;
+    overflow: hidden;
+    padding: 50px 50px 0 50px ;
+    box-shadow:  3px 3px 10px #171515,
+                -3px -3px 10px #171515;
+}
+.patient-form .form-header,
+.Doctor-form .form-header,
+.update-form .form-header,
+.Id-form .form-header,
+.hospital-form .form-header
+{
+    float: left;
+}
+.patient-form .form-header h3,
+.Doctor-form .form-header h3,
+.update-form .form-header h3,
+.Id-form .form-header h3,
+.hospital-form .form-header h3
+{
+    padding: 0;
+    margin: 0;
+    color:#15a1b5;
+}
+.patient-form .form .logo,
+.Doctor-form .form .logo,
+.update-form .form .logo,
+.Id-form .form .logo,
+.hospital-form .form .logo
+{
+    float: right;
+}
+.patient-form .form form,
+.Doctor-form .form form,
+.update-form .form form,
+.Id-form .form form,
+.hospital-form .form form
+{
+    width:100%;
+    margin-top: 16%;
+    color:#aaa;
+}
+.patient-form .form form input,
+.Doctor-form .form form input,
+.update-form .form form input,
+.Id-form .form form input,
+.hospital-form .form form input
+
+{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 9px;
+    color: #ddd;
+    outline: 0;
+    background: rgba(95,93,93,0.5);
+}
+.patient-form .form form input[type="submit"],
+.Doctor-form .form form input[type="submit"],
+.update-form .form form input[type="submit"],
+.Id-form .form form input[type="submit"],
+.hospital-form .form form input[type="submit"]
+
+{
+    width: 100%;
+    outline: 0;
+    background: #15a1b5;
+    border: none;
+    color: #ddd;
+    font-size: 22px;
+    margin-top: 15px;
+    border-radius: 9px;
+    margin-bottom: 35px;
+}
+.patient-form .form form a,
+.Doctor-form .form form a,
+.update-form .form form a,
+.Id-form .form form a,
+.hospital-form .form form a
+
+{
+    color: #c5a91c;
+    margin-left: 2%;
+}
+
+/*=========================== End Patient form ==========================*/
+/*=========Start Doctor Account ================*/
+.Doctor-form .form,
+.update-form .form
+{
+    height: 1200px;
+    margin: 5% auto 30px auto;
+}
+.Doctor-form .form
+{
+    height: 1000px;
+}
+.Doctor-form .form textarea,
+.update-form .form textarea,
+.hospital-form .form textarea
+{
+    display: block;
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 9px;
+    color: #ddd;
+    height: 170px;
+    outline: 0;
+    background: rgba(95,93,93,0.5);
+}
+select
+{
+    width: 100%;
+    height: 39px;
+    border: none;
+    padding: 9px;
+    outline: 0;
+     color: #ddd;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    background: rgba(95,93,93,0.5);
+}
+.update-form select
+{
+    width: 100%;
+}
+option
+{
+    border: none;
+    color: #ddd;
+    border-radius: 9px;
+    height: 30px;
+    outline: 0;
+    padding: 10px;
+    background: #000;
+}
+/*=========End Doctor Account ================*/
+/*=========Start update Doctor Account =============*/
+
+.update-form .form-header h3
+{
+    font-size:30px;
+}
+.update-form .form form input
+{
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+.update-form .form form textarea{
+    width: 100%;
+}
+.update-form .form form input[type="checkbox"]
+{
+   display: inline;
+    float: right;
+    width: 15%;
+    height: 19px;
+    margin-top:8px;
+}
+.update-form .form form input.margin{
+       margin-top: -321px;
+}
+/*=========End update Doctor Account ================*/
+/*=========Start Hospital Id ================*/
+.Id-form .form
+{
+    height: 355px;
+    margin: 5% auto;
+}
+/*=========End update Id ======= =========*/
+/*=========Start Patient Account ======= =========*/
+.hospital-form .form
+{
+    height: 900px;
+    margin: 5% auto 30px auto;
+}
+.height
+{
+    height: 1065px;
+}
+/*=========End Patient Account  ======= =========*/
+/*=========Start Footer ================*/
+.footer
+{
+    background: #333;
+    color:#eee;
+    padding-top: 50px;
+    
+}
+.footer .one
+{
+   padding-right:10px; 
+}
+.footer .one h4
+{
+    margin-top: 31px;
+    font-size: 25px;
+    color: #11ece2;
+}
+.footer .one p
+{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.footer .two h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: #aba7a7;
+}
+.footer .two h3:after
+{
+    content: "";
+    width: 50px;
+    height: 4px;
+    background:#11ece2;
+    display: block;
+    margin-top: 20px;
+}
+.footer .two .days
+{
+    float: left;
+}
+.footer .two .hours
+{
+    float: left;
+}
+.footer hr
+{
+    width: 100%;
+}
+.footer li
+{
+    margin-top: 20px;
+    
+}
+.copy{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #111;
+    font-size: 20px;
+}
+/*=========End  Footer ================*/
+
+
